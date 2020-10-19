@@ -1,0 +1,34 @@
+.heroParallax {
+    /* The image used */
+    background-image: url("../img/croppedKitchen.jpg");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.welcomeMessage {
+    position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#ffffff;
+}
+
+.transitImage {
+       /* The image used */
+       background-image: url("../img/transit.jpg");
+
+       height: 500px;
+     
+       /* Create the parallax scrolling effect */
+       background-attachment: fixed;
+       background-position: left;
+       background-repeat: no-repeat;
+       background-size: cover;
+}
