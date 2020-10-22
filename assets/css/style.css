@@ -1,34 +1,50 @@
-.heroParallax {
-    /* The image used */
-    background-image: url("../img/croppedKitchen.jpg");
-  
-    /* Set a specific height */
-    height: 500px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 
-.welcomeMessage {
-    position: absolute;
-  top: 20%;
+.parallax {
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heroParallax {
+  /* The image used */
+  background-image: url("../img/croppedKitchen.jpg");
+  position: relative;
+}
+
+.austinTx {
+  background-image: url("../img/AustinPan.jpg");
+}
+
+.heroParallax .welcomeMessage {
+  position: absolute;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color:#ffffff;
+  color: #ffffff;
+  text-shadow: 3px 3px 3px orangered;
+  font-size: 3.5rem;
+  text-align: center;
 }
 
-.transitImage {
-       /* The image used */
-       background-image: url("../img/transit.jpg");
-
-       height: 500px;
-     
-       /* Create the parallax scrolling effect */
-       background-attachment: fixed;
-       background-position: left;
-       background-repeat: no-repeat;
-       background-size: cover;
+h3 {
+  color: orangered;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
+
+.findForm .btn {
+  background-color: orangered;
+}
+
+.findForm .btn:hover {
+  background-color: red;
+  border: orangered 1px solid;
+}
+
+/* Google map */
