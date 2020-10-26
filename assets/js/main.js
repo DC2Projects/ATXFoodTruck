@@ -47,10 +47,10 @@ $("#walking").click(function () {
 });
 
 // button to change travel mode to public transit
-$("#transit").click(function () {
-  askMode = "TRANSIT";
-  console.log(askMode);
-});
+// $("#transit").click(function () {
+//   askMode = "TRANSIT";
+//   console.log(askMode);
+// });
 
 // results variable
 var results = document.getElementById("results");
@@ -128,8 +128,8 @@ function initMap() {
             // search by price
             var price = $("#1").prop("checked") ? "1," : "";
             price += $("#2").prop("checked") ? "2," : "";
-            price += $("#3").prop("checked") ? "3," : "";
-            price += $("#4").prop("checked") ? "4," : "";
+            // price += $("#3").prop("checked") ? "3," : "";
+            // price += $("#4").prop("checked") ? "4," : "";
             var textbox = $("#foodType").val();
             price = price.substring(0, price.length - 1);
 
