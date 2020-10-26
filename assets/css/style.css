@@ -48,3 +48,6 @@ h3 {
 }
 
 /* Google map */
+#map {
+  height: 500px;
+}
